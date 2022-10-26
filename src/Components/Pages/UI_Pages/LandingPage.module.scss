@@ -1,0 +1,30 @@
+.textContainer{
+
+
+/* H2 Semibold */
+
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 38px;
+/* or 127% */
+
+display: flex;
+align-items: center !important;
+text-align: center !important;
+
+/* Black Regular */
+
+color: #101010;
+margin-top: 3rem;
+
+}
+.typoStyle{
+  width: 100%;
+}
+.reusableButtonModify{
+  margin-top: 2rem !important;
+  text-align: center;
+  border-radius: 1rem !important;
+}
