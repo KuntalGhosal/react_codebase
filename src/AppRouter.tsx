@@ -5,6 +5,7 @@ import { HashRouter, Route, Switch } from 'react-router-dom'
 // redux
 import { storeConfig } from './Components/Store/store';
 import LandingPage from './Components/Pages/UI_Pages/LandingPage';
+import { Login } from './Components/Pages/Login/Login';
 
 export const store = storeConfig();
 export type AppDispatch = typeof store.dispatch;
@@ -20,6 +21,10 @@ function AppRouter() {
             <Route
                 path="/"
                 component={ LandingPage }
+                exact={ true }/>
+             <Route
+                path="/login"
+                component={ Login }
                 exact={ true }/>
             </Switch>
         </HashRouter>

@@ -1,7 +1,7 @@
 body {
   background:  linear-gradient(180deg, #E0FFEB 0%, rgba(224, 255, 235, 0) 50%);
-  height: 100vh;
-}
+  background-repeat: no-repeat;
+  }
 
 code {
   font-family: 'Noto Sans';
